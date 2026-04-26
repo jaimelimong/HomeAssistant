@@ -66,6 +66,7 @@ RUN pip3 install adafruit-blinka
 RUN pip3 install adafruit-circuitpython-ssd1306
 RUN pip3 install pillow
 RUN pip3 install websocket-client
+RUN pip3 install adafruit-circuitpython-framebuf
 
 COPY /python* /UCTronics_OLED/
 
