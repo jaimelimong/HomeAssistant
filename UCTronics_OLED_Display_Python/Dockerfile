@@ -41,13 +41,13 @@ RUN \
     \
     && apt-get update && apt-get install -y libjpeg-dev libfreetype6-dev libopenjp2-7 \
     \
-    && curl -L -f -s "https://github.com/just-containers/s6-overlay/releases/download/v${S6_OVERLAY_VERSION}/s6-overlay-armhf.tar.gz" \
+    && curl -L -f -s "https://github.com/just-containers/s6-overlay/releases/download/v${S6_OVERLAY_VERSION}/s6-overlay-aarch64.tar.gz" \
     | tar zxvf - -C / \
     && mkdir -p /etc/fix-attrs.d \
     && mkdir -p /etc/services.d \
     \
     && curl -L -f -s -o /usr/bin/tempio \
-    "https://github.com/home-assistant/tempio/releases/download/${TEMPIO_VERSION}/tempio_armhf" \
+    "https://github.com/home-assistant/tempio/releases/download/${TEMPIO_VERSION}/tempio_aarch64" \
     && chmod a+x /usr/bin/tempio \
     \
     && mkdir -p /usr/src/bashio \
