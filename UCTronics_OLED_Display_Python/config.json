@@ -4,8 +4,6 @@
     "slug": "uctronics_oled_display_python",
     "description": "This addon lets you display to your OLED provided in the UCTRONICS Pi Rack 4 with the ssd1306 OLED.",
     "arch": [
-        "armhf",
-        "armv7",
         "aarch64"
     ],
     "log_level": "info",
