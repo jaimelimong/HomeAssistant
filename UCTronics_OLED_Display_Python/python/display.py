@@ -13,6 +13,7 @@ import time
 import sys, getopt
 import subprocess
 import json
+import board
 
 from board import SCL, SDA
 import busio
