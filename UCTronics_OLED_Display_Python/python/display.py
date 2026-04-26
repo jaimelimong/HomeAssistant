@@ -13,7 +13,6 @@ import time
 import sys, getopt
 import subprocess
 import json
-import busio
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 import adafruit_ssd1306
